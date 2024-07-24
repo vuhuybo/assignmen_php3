@@ -21,7 +21,7 @@ Copyright 2024
 
 <!-- site Favicon -->
 <link rel="icon" href="{{ asset('assets1/img/favicon/favicon.png') }}" sizes="32x32">
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <!-- css Icon Font -->
 <link rel="stylesheet" href="{{ asset('assets1/css/vendor/gicons.css') }}">
 

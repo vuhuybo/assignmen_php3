@@ -12,6 +12,9 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\VariantController;
+use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\InvoiceController;
+use App\Models\Customer;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -54,6 +57,16 @@ Route::get('/checkCart', [CartController::class, 'checkCart'])->name('checkCart'
 Route::get('/update-quantity-cart', [CartController::class,'quantityCart'])->name('quantityCart');
 
 Route::get('/checkout/{id}', [CheckoutController::class,'checkout'])->name('checkout');
+Route::post('checkoutproduct',[CheckoutController::class,'checkoutproduct'])->name('checkoutproduct');
+
+// Route::post('addcustomer', [CustomerController::class,'addcustomer'])->name('addcustomer');
+Route::post('add-customer',[CustomerController::class,'addcustomer'])->name('customer');
+Route::post('get-customer',[CustomerController::class,'getcustomer'])->name('getcustomer');
+
+
+Route::post('addInvoice',[InvoiceController::class,'addInvoice'])->name('addInvoice');
+
+
 
 
 
