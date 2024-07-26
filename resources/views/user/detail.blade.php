@@ -74,10 +74,10 @@ button {
                                     <div class="single-product-scroll p-[15px] sticky top-[30px] rounded-[5px] border-[1px] border-solid border-[#eee]">
                                         <div class="single-product-cover overflow-hidden cursor-zoom-in rounded-[5px]">
                                             <div class="single-slide zoom-image-hover">
-                                                <img class="img-responsive h-full w-full" src="{{ asset('uploads/product/'.$product->image) }}"  alt="">
+                                                <img id="mainImage" class="img-responsive h-full w-full" src="{{ asset('uploads/product/'.$product->image) }}"  alt="">
                                             </div>
                                             <div class="single-slide zoom-image-hover">
-                                                <img class="img-responsive h-full w-full" src="{{ asset('uploads/product/'.$product->image) }}" alt="">
+                                                <img  class="img-responsive h-full w-full" src="{{ asset('uploads/product/'.$product->image) }}" alt="">
                                             </div>
                                         </div>
                                         <div class="single-nav-thumb w-full overflow-hidden">

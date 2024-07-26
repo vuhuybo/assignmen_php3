@@ -42,121 +42,6 @@
     </section>
     <!-- Hero Slider End -->
 
-    <!-- Category section -->
-    <section class="gi-category body-bg py-[40px] max-[767px]:py-[30px] wow fadeInUp" data-wow-duration="2s">
-        <div class="flex flex-wrap justify-between items-center mx-auto min-[1600px]:max-w-[1600px] min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
-            <div class="w-full flex flex-wrap px-[12px] mb-[-15px]">
-                <div class="min-[1200px]:w-full basis-auto max-w-full border-content-color">
-                    <div class="gi-category-block owl-carousel flex">
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#fff6ec]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <span class="gi-lbl px-[5px] absolute top-[0] right-[0] bg-[#5caf90] text-[#fff] text-[12px] font-semibold rounded-bl-[5px] rounded-tr-[5px]">30%</span>
-                                <i class="fi fi-tr-peach transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Fruits</h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">320 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#e2fde2]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <i class="fi fi-tr-bread transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Bakery</h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">65 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#ffeae9]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <span class="gi-lbl px-[5px] absolute top-[0] right-[0] bg-[#5caf90] text-[#fff] text-[12px] font-semibold rounded-bl-[5px] rounded-tr-[5px]">15%</span>
-                                <i class="fi fi-tr-corn transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Vegetables</h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">548 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#fde1f5]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <span class="gi-lbl px-[5px] absolute top-[0] right-[0] bg-[#5caf90] text-[#fff] text-[12px] font-semibold rounded-bl-[5px] rounded-tr-[5px]">10%</span>
-                                <i class="fi fi-tr-coffee-pot transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Dairy & Milk</h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">48 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#ecf0ff]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <i class="fi fi-tr-french-fries transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Snack & Spice</h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">59 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#f9f9d9]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <i class="fi fi-tr-hamburger-soda transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Juice & Drinks </h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">845 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#fff6ec]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <i class="fi fi-tr-shrimp transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Seafood</h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">652 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#e2fde2]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <span class="gi-lbl px-[5px] absolute top-[0] right-[0] bg-[#5caf90] text-[#fff] text-[12px] font-semibold rounded-bl-[5px] rounded-tr-[5px]">20%</span>
-                                <i class="fi fi-tr-popcorn transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Fast Food</h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">253 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gi-cat-box transition-all duration-[0.3s] ease-in-out p-[15px] rounded-[5px] relative bg-[#ffeae9]">
-                            <div class="gi-cat-icon h-full p-[15px] flex flex-col items-center justify-center bg-[#fff] relative rounded-[5px] z-[5]">
-                                <i class="fi fi-tr-egg transition-all duration-[0.3s] ease-in-out text-[40px] my-[10px] text-[#5caf90] leading-[0]"></i>
-                                <div class="gi-cat-detail text-center">
-                                    <a href="shop-left-sidebar-col-3.html">
-                                        <h4 class="gi-cat-title m-[0] text-[15px] leading-[22px] font-semibold text-[#4b5966] capitalize font-manrope">Eggs</h4>
-                                    </a>
-                                    <p class="items m-[0] text-[13px] leading-[28px] text-[#777]">154 Items</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Category section End -->
 
 
 <section class="gi-deal-section py-[40px] max-[767px]:py-[30px] wow fadeInUp" data-wow-duration="2s">
@@ -277,7 +162,7 @@
                     <!-- 1st Product tab start -->
                     <div class="tab-pro-pane" id="all">
                         <div class="w-full flex flex-wrap">
-                            @foreach ($product as $pro)
+                            @foreach ($product1 as $pro)
                             <div class="min-[1200px]:w-[20%] min-[768px]:w-[33.33%] min-[576px]:w-[50%] max-[575px]:w-[50%] max-[420px]:w-full px-[12px]">
                                 <div class="gi-product-content h-full pb-[24px] flex">
                                     <div class="gi-product-inner transition-all duration-[0.3s] ease-in-out cursor-pointer flex flex-col overflow-hidden border-[1px] border-solid border-[#eee] rounded-[5px]">
@@ -2099,7 +1984,7 @@
                         <div class="gi-bnr-detail max-w-[200px] flex flex-col items-start justify-center absolute top-[50%] left-[50px] translate-y-[-50%] max-[1199px]:max-w-[160px] max-[1199px]:left-[15px] max-[991px]:max-w-[110px] max-[767px]:max-w-[155px] max-[420px]:max-w-[150px] max-[360px]:max-w-[110px] max-[360px]:top-auto max-[360px]:bottom-[30px] max-[360px]:left-[15px] max-[360px]:transform-none">
                             <h5 class="text-white text-[34px] font-bold leading-[1.2] capitalize mb-[6px] max-[1399px]:text-[28px] max-[1199px]:text-[22px] max-[991px]:text-[16px] max-[767px]:text-[20px] max-[420px]:text-[16px]">Xiaomi  2024</h5>
                             <p class="text- mb-[16px] text-[16px] leading-[22px] capitalize font-normal max-[991px]:hidden max-[767px]:block max-[767px]:text-[14px] max-[420px]:text-[13px] max-[420px]:leading-[17px] max-[360px]:hidden">Với rất nhiều chức năng được chứa đựng trong máy</p>
-                            <a href="http://127.0.0.1:8000" class="gi-btn-2 transition-all duration-[0.3s] ease-in-out overflow-hidden text-center relative rounded-[5px] py-[5px] max-[360px]:py-[3px] px-[15px] max-[360px]:px-[10px] bg-[#5caf90] text-[#fff] border-[0] text-[14px] max-[360px]:text-[13px] tracking-[0] font-medium inline-flex items-center hover:bg-[#4b5966] hover:text-[#fff]">Shop Now</a>
+                            <a href="http://127.0.0.1:8000/category/XIAOMI%20REDMI" class="gi-btn-2 transition-all duration-[0.3s] ease-in-out overflow-hidden text-center relative rounded-[5px] py-[5px] max-[360px]:py-[3px] px-[15px] max-[360px]:px-[10px] bg-[#5caf90] text-[#fff] border-[0] text-[14px] max-[360px]:text-[13px] tracking-[0] font-medium inline-flex items-center hover:bg-[#4b5966] hover:text-[#fff]">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -2113,7 +1998,7 @@
                         <div class="gi-bnr-detail max-w-[200px] flex flex-col items-start justify-center absolute top-[50%] right-[50px] translate-y-[-50%] max-[1199px]:max-w-[160px] max-[1199px]:right-[15px] max-[991px]:max-w-[110px] max-[767px]:max-w-[155px] max-[420px]:max-w-[150px] max-[360px]:max-w-[110px] max-[360px]:top-auto max-[360px]:bottom-[30px] max-[360px]:right-[15px] max-[360px]:transform-none">
                             <h5 class="text-white text-[34px] font-bold leading-[1.2] capitalize mb-[6px] max-[1399px]:text-[28px] max-[1199px]:text-[22px] max-[991px]:text-[16px] max-[767px]:text-[20px] max-[420px]:text-[16px]">Apple ra mắt sản phẩm siêu hót </h5>
                             <p class="text-white mb-[16px] text-[16px] leading-[22px] capitalize font-normal max-[991px]:hidden max-[767px]:block max-[767px]:text-[14px] max-[420px]:text-[13px] max-[420px]:leading-[17px] max-[360px]:hidden">Nhanh tay nhanh tay click ngay thôi!</p>
-                            <a href="shop-left-sidebar-col-3.html" class="gi-btn-2 transition-all duration-[0.3s] ease-in-out overflow-hidden text-center relative rounded-[5px] py-[5px] max-[360px]:py-[3px] px-[15px] max-[360px]:px-[10px] bg-[#5caf90] text-[#fff] border-[0] text-[14px] max-[360px]:text-[13px] tracking-[0] font-medium inline-flex items-center hover:bg-[#4b5966] hover:text-[#fff]">Shop Now</a>
+                            <a href="http://127.0.0.1:8000/category/IPHONE" class="gi-btn-2 transition-all duration-[0.3s] ease-in-out overflow-hidden text-center relative rounded-[5px] py-[5px] max-[360px]:py-[3px] px-[15px] max-[360px]:px-[10px] bg-[#5caf90] text-[#fff] border-[0] text-[14px] max-[360px]:text-[13px] tracking-[0] font-medium inline-flex items-center hover:bg-[#4b5966] hover:text-[#fff]">Shop Now</a>
                         </div>
                     </div>
                 </div>

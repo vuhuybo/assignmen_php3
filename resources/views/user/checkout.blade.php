@@ -42,10 +42,13 @@
                                         <span class="text-right text-[#4b5966] text-[15px] leading-[24px] font-medium"><a class="gi-checkout-coupan text-[#5caf90] text-[14px] font-medium">Apply Coupan</a></span>
                                     </div>
                                     <div class="gi-checkout-coupan-content hidden flex justify-between items-center mb-[10px]">
-                                        <form class="gi-checkout-coupan-form flex border-[1px] border-solid border-[#eee] p-[5px] rounded-[5px]" name="gi-checkout-coupan-form" method="post" action="#">
-                                            <input class="form-control mb-3" type="text" required="" placeholder="Enter Your Coupan Code" name="gi-coupan" value="">
+                                        <form class="gi-checkout-coupan-form flex border-[1px] border-solid border-[#eee] p-[5px] rounded-[5px]" name="gi-checkout-coupan-form" method="post" action="{{ route('apply-promotion') }}">
+                                            @csrf
+                                            <input class="gi-coupan inline-block align-top leading-[35px] h-[35px] w-full text-[#777] text-[14px] border-[0] bg-transparent text-left pl-[10px] pr-[10px] tracking-[0.5px] rounded-[5px] outline-[0]" type="text" required="" placeholder="Enter Your Coupan Code" name="code" value="">
                                             <button type="submit" class="gi-coupan-btn gi-btn-2 text-[16px] text-center px-[15px] transition-all duration-[0.3s] ease-in-out font-medium bg-[#5caf90] text-[#fff] rounded-[5px] hover:bg-[#4b5966] hover:text-[#fff]" name="subscribe" value="">Apply</button>
                                         </form>
+                                        <div id="promotion-message"></div>
+                                        <div id="discounted-price">
                                     </div>
                                     <div class="gi-checkout-summary-total border-t-[1px] border-solid border-[#eee] pt-[19px] mb-[0] mt-[16px] flex justify-between items-center">
                                         <span class="text-left text-[16px] font-semibold text-[#4b5966] tracking-[0] font-manrope">Total Amount</span>
@@ -251,6 +254,34 @@
         })
     })
 
+</script>
+
+
+<script type="module">
+    document.getElementById('apply-promotion-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        let form = event.target;
+        let formData = new FormData(form);
+
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                document.getElementById('promotion-message').innerText = data.message;
+                document.getElementById('discounted-price').innerText = 'Giá sau khi giảm: ' + data.discounted_price + ' VND';
+            } else {
+                document.getElementById('promotion-message').innerText = data.message;
+            }
+        })
+        .catch(error => console.error('Error:', error));
+    });
 </script>
 
 

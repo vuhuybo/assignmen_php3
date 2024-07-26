@@ -21,7 +21,7 @@ class InvoiceController extends Controller
         $data = $request->all();
         if($data['payment_method']==2){
             $amount = $data['total'];
-            $this->momoService->MomoService($amount);
+           return $this->momoService->MomoService($amount);
         }
     }
 

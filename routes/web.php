@@ -14,6 +14,9 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\VariantController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\InvoiceController;
+use App\Http\Controllers\ShopproductController;
+use App\Http\Controllers\CouponController;
+use App\Models\Coupon;
 use App\Models\Customer;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
@@ -40,6 +43,7 @@ Route::prefix('admin')->group(function(){
     Route::resource('product',ProductController::class);
     Route::resource('variant',VariantController::class);
     Route::resource('banner',BannerController::class);
+    Route::resource('coupon',CouponController::class);
 });
 
 
@@ -59,15 +63,18 @@ Route::get('/update-quantity-cart', [CartController::class,'quantityCart'])->nam
 Route::get('/checkout/{id}', [CheckoutController::class,'checkout'])->name('checkout');
 Route::post('checkoutproduct',[CheckoutController::class,'checkoutproduct'])->name('checkoutproduct');
 
-// Route::post('addcustomer', [CustomerController::class,'addcustomer'])->name('addcustomer');
 Route::post('add-customer',[CustomerController::class,'addcustomer'])->name('customer');
 Route::post('get-customer',[CustomerController::class,'getcustomer'])->name('getcustomer');
 
 
 Route::post('addInvoice',[InvoiceController::class,'addInvoice'])->name('addInvoice');
 
+//Sản phẩm
+Route::get('shopproduct',[UserController::class,'shopproduct'])->name('shopproduct');
+Route::get('/category/{name}', [UserController::class, 'showByCategory'])->name('showByCategory');
+//Sản phẩm
 
 
-
-
+//khuyến mãi
+Route::get('apply-promotion',[CouponController::class,'applypromotion'])->name('applypromotion');
 

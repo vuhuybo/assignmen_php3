@@ -62,7 +62,7 @@ class MomoController extends Controller
 
                 //Just a example, please check more in there
 
-                header('Location: ' . $jsonResult['payUrl']);
+                return redirect($jsonResult['payUrl']);
             }
 
 }

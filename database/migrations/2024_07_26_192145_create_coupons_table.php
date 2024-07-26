@@ -16,14 +16,9 @@ return new class extends Migration
             $table->string('code');
             $table->integer('discount');
             $table->integer('minimum');
-            $table->unsignedBigInteger('id_types');
             $table->timestamp('start')->nullable()->comment('Ngày bắt đầu');
             $table->timestamp('end')->nullable()->comment('Ngày kết thúc');
             $table->timestamps();
-
-            $table->foreign('id_types')->references('id')->on('promotion_types')
-                  ->onDelete('cascade')
-                  ->onUpdate('cascade');
         });
     }
 
